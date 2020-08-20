@@ -1,0 +1,69 @@
+.line {
+    position: absolute;
+    width: 261px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin-left: 150px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 42px;
+    color: #382149;
+    margin-left: 250px
+}
+
+.grid {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-template-areas: 
+      "pic text"
+      "pic btn";
+    grid-template-columns: min-content max-content;
+    height: 400px;
+}
+
+.pic {
+    grid-area: pic;
+    min-width: 200px;
+    width: 300px;
+    height: auto;
+    position: relative;
+    background: url(../profile-pic.png);
+    margin-left: 200px;
+    background-repeat: no-repeat;
+}
+
+.text {
+    position: relative;
+    grid-area: text;
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 100px;
+}
+
+.btn {
+    width: 220px;
+    height: 40px;
+
+    background: #000000;
+    border-radius: 20px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    padding-left: 70px;
+    text-decoration: none;
+    color: #FEFAFA;
+    font-style: normal;
+}

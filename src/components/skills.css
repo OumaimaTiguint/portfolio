@@ -1,0 +1,43 @@
+.line {
+    position: absolute;
+    width: 261px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin-left: 150px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 42px;
+    color: #382149;
+    margin-left: 400px;
+}
+
+.skill {
+    width: 120px;
+    height: 50px;
+    background: #382149;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FEFAFA;
+    text-align: center;
+    vertical-align: middle;
+    margin: 30px;
+    margin-top: 0
+}
+
+.skill-divs-row1, .skill-divs-row2 {
+    display: flex;
+    flex-direction: row;
+    float: right
+}
+
+.skills {
+    height: 70vh
+}

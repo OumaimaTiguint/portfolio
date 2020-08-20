@@ -1,0 +1,44 @@
+.line {
+    position: absolute;
+    width: 261px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin-left: 150px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 42px;
+    color: #382149;
+    margin-left: 250px
+}
+
+.project {
+    width: 200px;
+    height: 250px;
+    background: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFBFB;
+    margin: 10px;
+    padding: 5px
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    margin: 20px
+}
+
+.code {
+    position: absolute;
+    bottom: 12px;
+    color: #382149;
+}
