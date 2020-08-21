@@ -10,10 +10,18 @@ class About extends React.Component {
         return (
             <div>
                 <div id="mySidenav" className="sidenav">
-                    <a href="#intro"><FontAwesomeIcon icon={faHome} /> Home</a>
-                    <a href="#about"><FontAwesomeIcon icon={faAddressCard} /> About</a>
-                    <a href="#skills"><FontAwesomeIcon icon={faListAlt} /> Skills</a>
-                    <a href="#projects"><FontAwesomeIcon icon={faCode} /> Projects</a>
+                    <a href="#intro"><FontAwesomeIcon icon={faHome} />
+                        Home
+                    </a>
+                    <a href="#about"><FontAwesomeIcon icon={faAddressCard} /> 
+                        About
+                    </a>
+                    <a href="#skills"><FontAwesomeIcon icon={faListAlt} /> 
+                        Skills
+                    </a>
+                    <a href="#projects"><FontAwesomeIcon icon={faCode} />
+                        Projects
+                    </a>
                     
                     <div className="bottom">
                         <a rel="noopener noreferrer" target='_blank' href="https://github.com/OumaimaTiguint">

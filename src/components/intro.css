@@ -32,3 +32,23 @@ body {
 .intro {
     height: 90vh
 }
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        height: 50vh;
+    }
+    .greeting {
+        font-size: 40px;
+        margin-left: 130px
+    }
+
+    .name {
+        font-size: 50px;
+        margin-left: 130px
+    }
+
+    .role {
+        font-size: 20px;
+        margin-left: 190px
+    }
+}

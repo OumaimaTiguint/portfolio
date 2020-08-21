@@ -32,7 +32,22 @@
     margin-left: 50px
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+@media only screen and (max-width: 600px) {
+    .sidenav {
+        height: 100%; 
+        width: 30vw;
+        position: fixed;
+        overflow-x: hidden;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .bottom a {
+        margin-left: 20px
+    }
 }
+
+
+    
+

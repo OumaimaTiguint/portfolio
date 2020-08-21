@@ -42,3 +42,23 @@
     bottom: 12px;
     color: #382149;
 }
+
+@media only screen and (max-width: 600px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        position: relative;
+        margin: 20px
+    }
+
+    .project { width: 50vw }
+
+    .code { position: relative }
+
+    .title { margin-left: 150px }
+    .line {
+        margin-left: 120px;
+        width: 50px;
+    }
+}

@@ -67,3 +67,31 @@
     color: #FEFAFA;
     font-style: normal;
 }
+
+@media only screen and (max-width: 600px) {
+    .line {
+        margin-left: 120px;
+        width: 50px;
+    }
+
+    .grid {
+        display: block
+    }
+
+    .title {margin-left: 150px }
+
+    .pic {
+        width: 0;
+    }
+
+    .text {
+        width: 60vw;
+        font-size: 20px;
+        margin-left: 140px;
+        line-height: normal;
+    }
+
+    .btn {
+        padding: 10px
+    }
+}
