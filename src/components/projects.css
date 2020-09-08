@@ -12,8 +12,13 @@
     font-size: 36px;
     font-style: normal;
     line-height: 42px;
-    color: #382149;
+    color: black;
     margin-left: 250px
+}
+
+.popup img {
+    width: 200px;
+    height: auto
 }
 
 .project {
@@ -41,6 +46,13 @@
     position: absolute;
     bottom: 12px;
     color: #382149;
+}
+
+.link {
+    position: absolute;
+    bottom: 12px;
+    color: #382149;
+    margin-left: 50px
 }
 
 @media only screen and (max-width: 600px) {
