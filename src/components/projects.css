@@ -1,76 +1,82 @@
-.line {
-    position: absolute;
-    width: 261px;
-    height: 0px;
-    border: 1px solid #000000;
-    margin-left: 150px;
-}
-
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 50px;
     font-style: normal;
     line-height: 42px;
-    color: black;
-    margin-left: 250px
+    color: #145374;
+    text-align: center;
 }
 
-.popup img {
-    width: 200px;
-    height: auto
+h3 {
+    text-align: left;
+    color: #EE6F57;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .project {
-    width: 200px;
-    height: 250px;
-    background: #000000;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    color: #FFFBFB;
+    display: grid;
+    grid-template-areas: "img description";
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    padding: 70px;
+    height: 60vh
+}
+
+.project .one-side img {
+    grid-area: img;
+    width: 600px;
+    height: auto;
+}
+.project .other-side {
+    grid-area: description;
+}
+
+.project .other-side .code {
+    background-color: #EE6F57;
+    color: white;
     margin: 10px;
-    padding: 5px
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    text-align: center
 }
 
-.projects {
-    display: flex;
-    flex-direction: row;
-    float: right;
-    position: relative;
-    margin: 20px
+.project .other-side .link {
+    border: 1px solid #EE6F57;
+    color: #EE6F57;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    text-align: center
 }
 
-.code {
-    position: absolute;
-    bottom: 12px;
-    color: #382149;
-}
 
-.link {
-    position: absolute;
-    bottom: 12px;
-    color: #382149;
-    margin-left: 50px
-}
 
 @media only screen and (max-width: 600px) {
     .projects {
         display: flex;
         flex-direction: column;
-        float: right;
-        position: relative;
-        margin: 20px
     }
 
-    .project { width: 50vw }
-
-    .code { position: relative }
-
-    .title { margin-left: 150px }
-    .line {
-        margin-left: 120px;
-        width: 50px;
+    .project { 
+        display: block;
+        height: 40vh
     }
+
+    .project .one-side img {
+        width: 90%;
+        height: auto;
+        margin: auto
+    }
+
 }

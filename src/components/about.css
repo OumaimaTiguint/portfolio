@@ -1,97 +1,41 @@
-.line {
-    position: absolute;
-    width: 261px;
-    height: 0px;
-    border: 1px solid #000000;
-    margin-left: 150px;
+.about {
+    height: 60vh
 }
 
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 50px;
     font-style: normal;
     line-height: 42px;
-    color: black;
-    margin-left: 250px
-}
-
-.grid {
-    display: grid;
-    width: min-content;
-    margin: 0 auto;
-    grid-template-areas: 
-      "pic text"
-      "pic btn";
-    grid-template-columns: min-content max-content;
-    height: 400px;
-}
-
-.pic {
-    grid-area: pic;
-    min-width: 200px;
-    width: 300px;
-    height: auto;
-    position: relative;
-    background: url(../profile-pic.png);
-    margin-left: 200px;
-    background-repeat: no-repeat;
+    color: #145374;
+    text-align: center;
 }
 
 .text {
-    position: relative;
-    grid-area: text;
-    width: 500px;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 16px;
-    color: whitesmoke;
-    margin-left: 100px;
+    color: black;
+    text-align: center;
+    width: 60%;
+    margin: auto
 }
 
-.btn {
-    width: 220px;
-    height: 40px;
-
-    background: #000000;
-    border-radius: 20px;
-    margin-left: 200px;
+h4 {
+    color: #EE6F57;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 40px;
-    padding-left: 70px;
-    text-decoration: none;
-    color: #FEFAFA;
-    font-style: normal;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-    .line {
-        margin-left: 120px;
-        width: 50px;
+    .about {
+        height: 45vh
     }
-
-    .grid {
-        display: block
-    }
-
-    .title {margin-left: 150px }
-
-    .pic {
-        width: 0;
-    }
-
     .text {
-        width: 60vw;
+        width: 80vw;
         font-size: 20px;
-        margin-left: 140px;
         line-height: normal;
-    }
-
-    .btn {
-        padding: 10px
     }
 }

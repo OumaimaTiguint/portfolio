@@ -1,32 +1,66 @@
 body {
-    background-color: #816E9A;
+    background-color: #F6F5F5;
 }
 
 .greeting {
     font-size: 96px;
-    color: #382149;
+    color: #EE6F57;
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
-    margin-left: 300px;
     margin-bottom: 0;
+    margin-left: 100px
 }
 
 .name {
     font-size: 96px;
     font-weight: bold;
-    color: black;
+    color: #00334E;
     font-family: 'Roboto', sans-serif;
-    margin-left: 300px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 auto 0 100px;
 }
 
 .role {
-    color: #FFFAFA;
-    font-size: 24px;
+    color: #EE6F57;
+    font-size: 34px;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 500px;
+    margin-left: 300px;
     margin-top: 0;
+}
+
+.intro-grid {
+    display: grid;
+    grid-template-areas: "btn socials";
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn {
+    grid-area: btn;
+    width: 200px;
+    height: 50px;
+
+    background: #EE6F57;
+    border-radius: 20px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    padding: 10px;
+    text-decoration: none;
+    color: #FEFAFA;
+}
+
+.socials {
+    grid-area: socials;
+    margin-left: 400px
+}
+
+.socials a {
+    border: 1px solid #145374;
+    border-radius: 50%;
+    margin: 10px;
+    color: #145374;
+    padding: 5px
 }
 
 .intro {
@@ -35,20 +69,36 @@ body {
 
 @media only screen and (max-width: 600px) {
     .intro {
-        height: 50vh;
+        height: 35vh;
     }
     .greeting {
-        font-size: 40px;
-        margin-left: 130px
+        font-size: 30px;
+        margin-left: 30px
     }
 
     .name {
-        font-size: 50px;
-        margin-left: 130px
+        font-size: 40px;
+        margin-left: 30px
     }
 
     .role {
-        font-size: 20px;
-        margin-left: 190px
+        font-size: 18px;
+        margin-left: 50px
+    }
+
+    .btn {
+        height: 30px;
+        width: 100px;
+        line-height: 30px;
+        font-size: 14px;
+        margin-left: 30px
+    }
+
+    .socials {
+        margin-left:0;
+    }
+    
+    .socials a {
+        margin: 5px;
     }
 }
