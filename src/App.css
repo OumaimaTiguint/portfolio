@@ -1,1 +1,14 @@
+.lng-btns {
+    float: right;
+    margin-right: 20px;
+}
+.lang {
+    border: none;
+    font-weight: bold;  
+    color: #145374
+}
 
+.lang:active {
+    background-color: #145374;
+    color: white
+}

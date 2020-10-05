@@ -1,14 +1,16 @@
 import React from 'react';
+import { withTranslation } from 'react-i18next';
 import './footer.css';
 
 class Footer extends React.Component {
     render() {
+        const { t } = this.props;
         return (
             <div className="footer">
-                © Developed by Oumaima Tiguint, 2020 
+                © {t('Developed by')} Oumaima Tiguint, 2020 
             </div>
         )
     }
 }
 
-export default Footer;
+export default withTranslation()(Footer);

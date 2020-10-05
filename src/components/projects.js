@@ -1,5 +1,6 @@
 import React from 'react';
 import './projects.css';
+import { withTranslation } from 'react-i18next';
 
 class Projects extends React.Component {
     projects= [
@@ -33,9 +34,10 @@ class Projects extends React.Component {
     }
     ]
     render() {
+        const { t } = this.props;
         return (
             <div id="projects">
-                <h2 className="title">Projects</h2>
+                <h2 className="title">{t('Projects')}</h2>
                 <div className="projects">
                     { 
                         this.projects.map(project => 
@@ -60,7 +62,7 @@ class Projects extends React.Component {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Live
+                                        {t('Live')}
                                     </a>
                             
                                 </div>
@@ -74,4 +76,4 @@ class Projects extends React.Component {
     }
 }
 
-export default Projects;
+export default withTranslation()(Projects);
