@@ -12,25 +12,25 @@ class Projects extends React.Component {
         tech: 'HTML | CSS | Javascript | Leaflet | wheretheiss.at API'
     },
     { 
+        link: "https://readingstats.netlify.app/",
+        code: "https://github.com/OumaimaTiguint/reading-stats",
+        title: "Reading Stats",
+        img: 'pictures/stats.png',
+        tech: "HTML | CSS | Javascript | React | Chart.js | Material UI"
+    },
+    { 
         link: "https://mock-bookstore.netlify.app/",
         code: "https://github.com/OumaimaTiguint/bookstore",
         title: "Bookstore",
         img: 'pictures/bookstore.png',
         tech: 'HTML | CSS | Javascript | React | Redux | Bootstrap '
-    }, 
-    { 
-        link: "https://mock-salon.netlify.app/",
-        code: "https://github.com/OumaimaTiguint/mock-salon",
-        title: "Hair Salon",
-        img: 'pictures/salon.png',
-        tech: "HTML | CSS | Javascript | React"
     },
     { 
-        link: "https://qizz.netlify.app/",
-        code: "https://github.com/OumaimaTiguint/React-quiz",
-        title: "Quizz",
-        img: 'pictures/quizz.png',
-        tech: 'HTML | CSS | Javascript | React '
+        link: "https://github.com/OumaimaTiguint/mern-exercise-tracker",
+        code: "https://github.com/OumaimaTiguint/mern-exercise-tracker",
+        title: "Exercise Tracker",
+        img: 'pictures/tracker.png',
+        tech: 'HTML | CSS | Javascript | React | MongoDB | Express | Node'
     }
     ]
     render() {
