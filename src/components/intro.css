@@ -56,11 +56,15 @@ body {
 }
 
 .socials a {
+    display: inline-block;
     border: 1px solid #145374;
     border-radius: 50%;
     margin: 10px;
     color: #145374;
-    padding: 5px
+    padding: 5px;
+    width: 17px;
+    height: 17px;
+    line-height: 17px
 }
 
 .intro {
