@@ -1,9 +1,9 @@
 .footer {
     width: 100%;
     background-color: #EE6F57;
-    height: 70px;
+    height: 50%;
     color: white;
     text-align: center;
-    line-height: 70px;
+    line-height: 50px;
     bottom: 0
 }

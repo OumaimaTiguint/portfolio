@@ -1,11 +1,7 @@
-.about {
-    height: 60vh
-}
-
 .title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 2.5em;
     font-style: normal;
     line-height: 42px;
     color: #145374;
@@ -19,7 +15,8 @@
     color: black;
     text-align: center;
     width: 60%;
-    margin: auto
+    margin: auto;
+    padding: 10px
 }
 
 h4 {
@@ -30,12 +27,12 @@ h4 {
 }
 
 @media only screen and (max-width: 600px) {
-    .about {
-        height: 60vh
-    }
     .text {
-        width: 80vw;
+        width: 80%;
         font-size: 20px;
         line-height: normal;
+    }
+    .title {
+        font-size: 2em;
     }
 }
