@@ -15,20 +15,19 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 .project {
-    display: grid;
-    grid-template-areas: "img description";
-    grid-template-columns: 1fr 1fr;
-    width: 80%;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
     margin: 40px auto;
+}
+.project:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .project .one-side img {
-    grid-area: img;
     width: 600px;
     height: auto;
-}
-.project .other-side {
-    grid-area: description;
 }
 
 .project .other-side .code {
