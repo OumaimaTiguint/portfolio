@@ -1,6 +1,6 @@
 import React from 'react';
 import { withTranslation } from 'react-i18next';
-import './about.css';
+import '../App.css';
 
 class About extends React.Component {
     render() {

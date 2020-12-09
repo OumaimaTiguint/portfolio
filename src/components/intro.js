@@ -3,7 +3,7 @@ import { withTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown, faAt } from '@fortawesome/fontawesome-free-solid';
 import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import './intro.css';
+import '../App.css';
 
 class Intro extends React.Component {
     render() {

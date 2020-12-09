@@ -1,5 +1,5 @@
 import React from 'react';
-import './projects.css';
+import '../App.css';
 import { withTranslation } from 'react-i18next';
 
 class Projects extends React.Component {

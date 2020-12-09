@@ -1,6 +1,6 @@
 import React from 'react';
 import { withTranslation } from 'react-i18next';
-import './footer.css';
+import '../App.css';
 
 class Footer extends React.Component {
     render() {
