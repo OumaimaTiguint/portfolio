@@ -2,7 +2,7 @@ import React from 'react';
 import { withTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown, faAt } from '@fortawesome/fontawesome-free-solid';
-import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import '../App.css';
 
 class Intro extends React.Component {
@@ -27,9 +27,6 @@ class Intro extends React.Component {
                         </a>
                         <a rel="noopener noreferrer" target="_blank" href="mailto:webmaster@example.com">
                             <FontAwesomeIcon icon={faAt} />
-                        </a>
-                        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/OTiguint">
-                            <FontAwesomeIcon icon={faTwitter} />
                         </a>
                     </div>
                 </div>
