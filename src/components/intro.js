@@ -25,7 +25,7 @@ class Intro extends React.Component {
                         <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/oumaima-tiguint-8608b7185/">
                             <FontAwesomeIcon icon={faLinkedinIn} />
                         </a>
-                        <a rel="noopener noreferrer" target="_blank" href="mailto:webmaster@example.com">
+                        <a rel="noopener noreferrer" target="_blank" href="mailto:oumaimatiguint@gmail.com">
                             <FontAwesomeIcon icon={faAt} />
                         </a>
                     </div>
