@@ -15,7 +15,7 @@ class Intro extends React.Component {
                 <p className="role">{t('Front end developer')}</p>
                 <div className="intro-grid">
                     <a className="btn" href="/Oumaima-Tiguint-CV.pdf" download>
-                        <FontAwesomeIcon icon={faArrowDown} />
+                        <FontAwesomeIcon className="icon" icon={faArrowDown} />
                         {t('Download CV')}
                     </a>
                     <div className="socials">

@@ -50,6 +50,10 @@ body {
     color: #FEFAFA;
 }
 
+.icon {
+    padding-right: 5px
+}
+
 .socials {
     grid-area: socials;
     margin-left: 400px
