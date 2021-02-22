@@ -3,6 +3,7 @@ import Intro from './components/intro';
 import About from './components/about';
 import Footer from './components/footer';
 import Projects from './components/projects';
+import Contact from './components/contact';
 import { useTranslation } from "react-i18next";
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
       <Intro />
       <About />
       <Projects />
+      <Contact />
       <Footer />
     </>
   );
