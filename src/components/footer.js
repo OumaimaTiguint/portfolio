@@ -7,7 +7,7 @@ class Footer extends React.Component {
         const { t } = this.props;
         return (
             <div className="footer">
-                © {t('Developed by')} Oumaima Tiguint, 2020 
+                © {t('Developed by')} Oumaima Tiguint, 2021 
             </div>
         )
     }

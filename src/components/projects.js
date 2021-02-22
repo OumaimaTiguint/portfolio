@@ -38,7 +38,7 @@ class Projects extends React.Component {
         return (
             <div id="projects">
                 <h2 className="title">{t('Projects')}</h2>
-                <div className="projects">
+                <div className="projects container">
                     { 
                         this.projects.map(project => 
                             <div className="project" key={project.title}>

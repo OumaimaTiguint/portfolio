@@ -19,8 +19,8 @@ function App() {
         <button className="lang" onClick={() => changeLanguage("en")}>En</button>
       </div>
       <Intro />
-      <Projects />
       <About />
+      <Projects />
       <Footer />
     </>
   );

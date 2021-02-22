@@ -5,6 +5,7 @@ import App from './App';
 import "./i18n/i18n";
 import * as serviceWorker from './serviceWorker';
 import 'font-awesome/css/font-awesome.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>

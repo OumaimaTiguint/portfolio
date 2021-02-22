@@ -9,12 +9,12 @@ class Intro extends React.Component {
     render() {
         const { t } = this.props;
         return (
-            <div className="intro">
+            <div className="intro container">
                 <h1 className="greeting">{t('Hello, I am')}</h1>
                 <h1 className="name">Oumaima <br/> Tiguint</h1>
                 <p className="role">{t('Front end developer')}</p>
                 <div className="intro-grid">
-                    <a className="btn" href="/Oumaima-Tiguint-CV.pdf" download>
+                    <a className="btn btn-dark btn-sm" href="/Oumaima-Tiguint-CV.pdf" download>
                         <FontAwesomeIcon className="icon" icon={faArrowDown} />
                         {t('Download CV')}
                     </a>
