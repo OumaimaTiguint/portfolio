@@ -44,7 +44,7 @@ class Contact extends React.Component {
         const { t } = this.props;
         return(
             <div className="container">
-                <h3>Get In Touch</h3>
+                <h3>{t('Get In Touch')}</h3>
                 <form id="contact-form" onSubmit={this.handleSubmit.bind(this)}>
                     <div className="form-group">
                         <label htmlFor="name">{t('Name')}</label>

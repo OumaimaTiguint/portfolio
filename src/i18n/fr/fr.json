@@ -6,5 +6,10 @@
     "Live": "En Direct",
     "About Me": "À propos de moi",
     "I am a 22-year-old Front End Developer based in Kenitra, Morocco. I have a passion for using technologies to produce creative solutions to problems. I like to resolve design problems and create smart user interfaces, developing rich web experiences & web applications. The main areas of my expertise are HTML, CSS, JavaScript, TypeScript, Angular, React, Node, and Express. I am always looking for new opportunities to further develop my skillset and expand my knowledge. I am currently available for hire.": "Je suis une développeuse Front End âgée de 22 ans basé à Kenitra, au Maroc. Je suis passionée d'utiliser les technologies pour produire des solutions créatives aux problèmes. J'aime résoudre les problèmes de conception et créer les interfaces d'utilisateur intelligentes, développer des expériences Web et Mobile riches. Les principaux domaines de mon expertise sont HTML, CSS, JavaScript, TypeScript, Angular, React, Node et Express. Je suis toujours à la recherche de nouvelles opportunités pour améliorer mes compétences et mes connaissances.",
-    "Developed by": "Développé par"
+    "Developed by": "Développé par",
+    "Name": "Nom",
+    "Email adress": "Adresse email",
+    "Message": "Message",
+    "Get In Touch": "Entrez en contact",
+    "Submit": "Envoyer"
 }
