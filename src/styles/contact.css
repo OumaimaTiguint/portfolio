@@ -41,4 +41,7 @@ input, textarea {
     form {
         width: 80% !important
     }
+    .contact-title {
+        font-size: 55px
+    }
 }

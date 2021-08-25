@@ -68,7 +68,6 @@
 @media screen and (max-width: 800px) {
     .cards {display: block}
     .flip-card { 
-        height: 300px; 
         width: 90%
     }
     .flip-card-back { padding: 10px}

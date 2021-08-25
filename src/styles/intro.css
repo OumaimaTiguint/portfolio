@@ -31,3 +31,9 @@ span {
     text-decoration: none;
     color: #fff
 }
+@media screen and (max-width: 800px) {
+    .greeting { font-size: 50px !important;}
+    .role { font-size: 30px !important;}
+    span { font-size: 70px !important;}
+    .cv { font-size: 25px;}
+}

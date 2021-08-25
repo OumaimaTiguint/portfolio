@@ -1,6 +1,7 @@
 import React from 'react';
 import { withTranslation } from 'react-i18next';
 import '../styles/intro.css';
+import '../App.css'
 
 class Intro extends React.Component {
     render() {
