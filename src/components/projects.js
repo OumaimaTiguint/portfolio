@@ -1,6 +1,7 @@
 import React from 'react';
-import '../App.css';
 import { withTranslation } from 'react-i18next';
+import '../styles/projects.css';
+import '../App.css';
 
 class Projects extends React.Component {
     projects= [
@@ -9,6 +10,7 @@ class Projects extends React.Component {
         code: "https://github.com/OumaimaTiguint/ISS-location",
         title: "ISS Location",
         img: 'pictures/iss.png',
+        desc: 'This is a simple project showing where the International Space Station is in real time.',
         tech: 'HTML | CSS | Javascript | Leaflet | wheretheiss.at API'
     },
     { 
@@ -16,60 +18,36 @@ class Projects extends React.Component {
         code: "https://github.com/OumaimaTiguint/reading-stats",
         title: "Reading Stats",
         img: 'pictures/stats.png',
-        tech: "HTML | CSS | Javascript | React | Chart.js | Material UI"
+        desc: 'This is a project that shows the books I read each year (starting from 2020) and some statistics about how my reading went.',        tech: "HTML | CSS | Javascript | React | Chart.js | Material UI"
     },
-    { 
-        link: "https://mock-bookstore.netlify.app/",
-        code: "https://github.com/OumaimaTiguint/bookstore",
-        title: "Bookstore",
-        img: 'pictures/bookstore.png',
-        tech: 'HTML | CSS | Javascript | React | Redux | Bootstrap '
-    },
-    { 
-        link: "https://github.com/OumaimaTiguint/mern-exercise-tracker",
-        code: "https://github.com/OumaimaTiguint/mern-exercise-tracker",
-        title: "Exercise Tracker",
-        img: 'pictures/tracker.png',
-        tech: 'HTML | CSS | Javascript | React | MongoDB | Express | Node'
-    }
     ]
     render() {
         const { t } = this.props;
         return (
-            <div id="projects">
+            <div className="projects">
                 <h2 className="title">{t('Projects')}</h2>
-                <div className="projects container">
-                    { 
-                        this.projects.map(project => 
-                            <div className="project" key={project.title}>
-                                <div className="one-side">
-                                    <img alt={project.title} src={project.img}></img>
+                <hr/>
+                <div className="cards">
+                { 
+                    this.projects.map((project, key) => 
+                    <div className="flip-card" key={key}>
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <img src={project.img} alt={project.title} style={{width:'300px',height:'300px'}}/>
+                            </div>
+                            <div className="flip-card-back">
+                                <h1>{project.title}</h1> 
+                                <p><strong>{project.tech}</strong></p> 
+                                <p>{project.desc}</p>
+                                <div className="btns">
+                                    <a rel="noopener noreferrer" href={project.link} target="_blank">Demo</a>
+                                    <a rel="noopener noreferrer" href={project.code} target="_blank">Code</a>
                                 </div>
-                                <div className="other-side">
-                                    <h3>{project.title} </h3>
-                                    <p>{project.tech}</p>
-                                    <a
-                                        className="code" 
-                                        href={project.code}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        Code
-                                    </a>
-                                    <a
-                                        className="link"  
-                                        href={project.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        {t('Live')}
-                                    </a>
-                            
-                                </div>
-                                
-                             </div>
-                        )
-                    }
+                            </div>
+                        </div>
+                    </div>
+                    )
+                }
                 </div>
             </div>
         )

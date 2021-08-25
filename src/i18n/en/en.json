@@ -1,15 +1,15 @@
 {
     "Hello, I am": "Hello, I am",
-    "Front end developer": "Front end developer",
+    "UI designer & Frontend developer": "UI designer & Frontend developer",
     "Download CV": "Download CV",
     "Projects": "Projects",
-    "Live": "Live",
     "About Me": "About Me",
-    "I am a 22-year-old Front End Developer based in Kenitra, Morocco. I have a passion for using technologies to produce creative solutions to problems. I like to resolve design problems and create smart user interfaces, developing rich web experiences & web applications. The main areas of my expertise are HTML, CSS, JavaScript, TypeScript, Angular, React, Node, and Express. I am always looking for new opportunities to further develop my skillset and expand my knowledge. I am currently available for hire.": "I am a 22-year-old Front End Developer based in Kenitra, Morocco. I have a passion for using technologies to produce creative solutions to problems. I like to resolve design problems and create smart user interfaces, developing rich web experiences & web applications. The main areas of my expertise are HTML, CSS, JavaScript, TypeScript, Angular, React, Node, and Express. I am always looking for new opportunities to further develop my skillset and expand my knowledge. I am currently available for hire.",
-    "Developed by": "Developed by",
-    "Name": "Name",
-    "Email adress": "Email adress",
-    "Message": "Message",
-    "Get In Touch": "Get In Touch",
+    "I am a 22-year-old Front End Developer based in": "I am a 22-year-old Front End Developer based in",
+    "Kenitra, Morocco": "Kenitra, Morocco",
+    "I have a passion for using technologies to produce creative solutions to problems. I like to resolve design problems and create smart user interfaces, developing rich web experiences & web applications.": "I have a passion for using technologies to produce creative solutions to problems. I like to resolve design problems and create smart user interfaces, developing rich web experiences & web applications.",
+    "The main areas of my expertise are": "The main areas of my expertise are",
+    "I am always looking for new opportunities to further develop my skillset and expand my knowledge. I am currently available for hire.": "I am always looking for new opportunities to further develop my skillset and expand my knowledge. I am currently available for hire.",
+    "Let's collaborate": "Let's collaborate",
+    "I am always looking to work on interesting and innovative projects.": "I am always looking to work on interesting and innovative projects.",
     "Submit": "Submit"
 }
