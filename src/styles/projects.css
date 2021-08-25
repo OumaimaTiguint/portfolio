@@ -1,7 +1,6 @@
 .cards {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 .flip-card {
     background-color: transparent;
