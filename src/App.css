@@ -1,249 +1,51 @@
-body {
-    background-color: #F6F5F5;
+body {background-color: #F3F1F5 !important;}
+.container {
+    width: 80%;
+    margin: auto !important
 }
-
-.greeting {
-    font-size: 96px;
-    color: #EE6F57;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 500;
-    margin-bottom: 0;
-}
-
-.name {
-    font-size: 96px;
-    font-weight: bold;
-    color: #00334E;
-    font-family: 'Roboto', sans-serif;
-}
-
-.role {
-    color: #EE6F57;
-    font-size: 34px;
-    font-family: 'Roboto Mono', monospace;
-    margin-left: 100px;
-    margin-top: 0;
-}
-
-.intro-grid {
+.top {
     display: grid;
-    grid-template-areas: "btn socials";
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 4fr 1fr;
 }
-
-.intro .btn {
-    grid-area: btn;
-    width: 200px;
-
-    background: #EE6F57;
-    border-radius: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 50px;
-    padding: 10px;
-    text-decoration: none;
-    color: #FEFAFA;
-}
-
-.icon {
-    padding-right: 5px
-}
-
-.socials {
-    grid-area: socials;
-    margin-left: 400px
-}
-
-.socials a {
-    display: inline-block;
-    border: 1px solid #145374;
-    border-radius: 50%;
-    margin: 10px;
-    color: #145374;
-    padding: 5px;
-    line-height: 17px
-}
-.lng-btns {
-    float: right;
-    margin-right: 20px;
+.oumaima {
+    font-family: "Playfair Display";
+    font-size: 20px;
 }
 .lang {
     border: none;
-    font-weight: bold;  
-    color: #145374
+    font-family: "Source Sans Pro";
+    background-color: transparent !important;
+    border-radius: 5px;
 }
 
 .lang:active, .lang:hover {
-    background-color: #145374;
-    color: white
+    background-color: #BFA2DB !important;
+    color: #fff
 }
-
 .title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 2.5em;
-    font-style: normal;
-    line-height: 42px;
-    color: #145374;
-    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 35px;
+}
+hr {
+    width: 200px;
+    margin-left: 10px;
+    height: 2px !important;
+    color: black !important
 }
 
-.text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    color: black;
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    padding: 10px
-}
-
-h4 {
-    color: #EE6F57;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-h3 {
-    text-align: left;
-    color: #EE6F57;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-}
-.project {
-    display: flex;
-    flex-direction: row;
-    margin: 40px auto;
-}
-.project:nth-child(even) {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.project .one-side img {
-    width: 600px;
-    height: auto;
-}
-
-.project .other-side .code {
-    background-color: #EE6F57;
-    color: white;
-    margin: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    line-height: 40px;
-    width: 100px;
-    height: 40px;
-    display: block;
-    text-align: center
-}
-
-.project .other-side .link {
-    border: 1px solid #EE6F57;
-    color: #EE6F57;
-    margin: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    line-height: 40px;
-    width: 100px;
-    height: 40px;
-    display: block;
-    text-align: center
-}
-
-.abt-content {
-    display: flex;
-    float: row;
-}
-.abt-content img {
-    width: 600px
-}
-.abt-content p {
-    width: 35%
-}
 .footer {
     width: 100%;
-    background-color: #EE6F57;
-    height: 50%;
+    height: 70px;
+    line-height: 70px;
     color: white;
     text-align: center;
-    line-height: 50px;
-    bottom: 0
-}
-form .btn {
-    margin: 10px;
-    font-weight: 600;
+    bottom: 0;
+    font-family: 'Playfair Display';
+    background-image: linear-gradient(358deg, #BFA2DB 70%, #F3F1F5 calc(70% + 2px))
 }
 
-@media only screen and (max-width: 600px) {
-    .greeting { 
-        font-size: 30px;
-        margin-top: 10px
-    }
-    .name {
-        font-size: 40px;
-    }
-
-    .role {
-        font-size: 18px;
-        margin-left: 30px
-    }
-
-    .intro .btn {
-        font-size: 14px;
-        width: 120px
-    }
-
-    .socials {
-        margin-left:0;
-    }
-    
-    .socials a {
-        margin: 5px;
-    }
-    .text {
-        width: 80%;
-        font-size: 20px;
-        line-height: normal;
-    }
-    .projects {
-        display: flex;
-        flex-direction: column;
-    }
-    .project:nth-child(even) {display: block}
-
-    .project { 
-        display: block;
-        box-shadow: 5px 10px 18px #888888;
-        width: 80%;
-        height: auto;
-        margin: 30px auto;
-        border-radius: 10px;
-        padding: 15px
-    }
-
-    .project .one-side img {
-        width: 90%;
-        height: auto;
-        margin: auto
-    }
-    .title {
-        font-size: 2em;
-    }
-    .abt-content { 
-        display: flex;
-        flex-direction: column;
-    }
-
-    .abt-content img { 
-        width: 70%;
-        margin-left: 30px
-    }
-    .abt-content p { 
-        font-size: 0.8em;
+@media screen and (max-width: 800px) {
+    .container {
         width: 90%
     }
 }

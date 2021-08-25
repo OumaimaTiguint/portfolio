@@ -1,0 +1,33 @@
+.intro {
+    margin-top: 50px
+}
+.greeting {
+    font-family: "Source Sans Pro";
+    font-size: 80px !important;
+}
+span {
+    color: #BFA2DB;
+    font-weight: bold;
+    font-size: 100px !important;
+    font-family: "Playfair Display";
+}
+.role {
+    font-family: "Source Sans Pro";
+    font-size: 50px !important;
+}
+.cv {
+    background-color: #BFA2DB;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Playfair Display";
+    border: none;
+    padding: 5px 10px;
+    font-size: 30px;
+    margin-top: 80px !important;
+    display: block;
+    width:fit-content
+}
+.cv:hover {
+    text-decoration: none;
+    color: #fff
+}
