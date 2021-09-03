@@ -9,7 +9,7 @@ class Projects extends React.Component {
         link: "https://iss-location.netlify.app/",
         code: "https://github.com/OumaimaTiguint/ISS-location",
         title: "ISS Location",
-        img: 'pictures/iss.png',
+        img: 'pictures/iss.jpg',
         desc: 'This is a simple project showing where the International Space Station is in real time.',
         tech: 'HTML | CSS | Javascript | Leaflet | wheretheiss.at API'
     },
@@ -17,7 +17,7 @@ class Projects extends React.Component {
         link: "https://readingstats.netlify.app/",
         code: "https://github.com/OumaimaTiguint/reading-stats",
         title: "Reading Stats",
-        img: 'pictures/stats.png',
+        img: 'pictures/stats.jpg',
         desc: 'This is a project that shows the books I read each year (starting from 2020) and some statistics about how my reading went.',        tech: "HTML | CSS | Javascript | React | Chart.js | Material UI"
     },
     ]
