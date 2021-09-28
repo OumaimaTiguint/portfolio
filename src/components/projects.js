@@ -20,6 +20,22 @@ class Projects extends React.Component {
         img: 'pictures/stats.jpg',
         desc: 'This is a project that shows the books I read each year (starting from 2020) and some statistics about how my reading went.',        tech: "HTML | CSS | Javascript | React | Chart.js | Material UI"
     },
+    { 
+        link: "https://tattoo-artist.netlify.app/",
+        code: "https://github.com/OumaimaTiguint/tattoo-artist",
+        title: "Tattoo Artist",
+        img: 'pictures/tattoo.jpg',
+        desc: 'This is a project to showcase the work of a fake tattoo artist.',        
+        tech: "Angular"
+    },
+    { 
+        link: "https://e-lear.netlify.app/",
+        code: "https://github.com/OumaimaTiguint/Elear",
+        title: "Language Learning",
+        img: 'pictures/elear.jpg',
+        desc: 'This is a landing page for a fake language learning website.',        
+        tech: "Angular"
+    },
     ]
     render() {
         const { t } = this.props;
