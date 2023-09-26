@@ -1,4 +1,18 @@
-:root {
-    --primaryFont: 'Poppins', sans-serif;
+body, html {
+    background-color: #FFFBF9
 }
 
+@keyframes fading-circles {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animate-fading-circles {
+    animation: fading-circles 4s ease-in-out;
+}

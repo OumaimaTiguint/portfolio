@@ -9,7 +9,8 @@ import git from '../assets/svg/skills/git.svg'
 import figma from '../assets/svg/skills/figma.svg'
 import ionic from '../assets/svg/skills/ionic.svg'
 import node from '../assets/svg/skills/node.svg'
-
+import react from '../assets/svg/skills/react.svg'
+import tailwind from '../assets/svg/skills/tailwind.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -36,6 +37,10 @@ export const skillsImage = (skill) => {
             return ionic;
         case 'node js':
             return node;
+        case 'react':
+            return react;
+        case 'tailwind':
+            return tailwind;
         default:
             break;
     }

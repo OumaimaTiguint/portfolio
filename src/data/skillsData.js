@@ -1,4 +1,4 @@
- export const skillsData = [
+export const skillsData = [
     'HTML',
     'Node JS',
     'Angular',
@@ -8,5 +8,7 @@
     'Ionic',
     'TypeScript',
     'MongoDB',
-    'Bootstrap'
+    'Bootstrap',
+    'Tailwind',
+    'React'
 ];
