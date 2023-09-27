@@ -1,6 +1,7 @@
 import React from 'react';
 import { headerData } from '../data/headerData';
 import { socialsData } from '../data/socialsData';
+import Button from './Button';
 
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
@@ -45,9 +46,18 @@ function Landing() {
                         <p className="mt-4 font-medium text-xl opacity-70 font-cutive">
                             {headerData.desciption}
                         </p>
+                        <div className="mt-5 block md:hidden">
+                            {headerData.resumePdf && (
+                                <a href={headerData.resumePdf}
+                                   download="resume"
+                                   target="_blank"
+                                   rel="noreferrer">
+                                    <Button>Download CV</Button>
+                                </a>
+                            )}
+                        </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     );
