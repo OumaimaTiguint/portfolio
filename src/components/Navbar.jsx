@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from './Button';
 import { headerData } from '../data/headerData';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
     const [isNavVisible, setIsNavVisible] = useState(false);
@@ -42,42 +43,42 @@ const Navbar = () => {
                     <ul className={`${isNavVisible ? 'absolute top-12 left-0 w-full flex flex-col items-center justify-center bg-gray-5 py-1-5 px-1 border rounded' 
                     : 'hidden md:flex space-x-4 md:space-x-6'}`}>
                         <li>
-                            <a href="/#home" className="hover:text-gray-700">
+                            <Link smooth to='/#home' className="hover:text-gray-700">
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/#about" className="hover:text-gray-700">
+                            <Link smooth to='/#about' className="hover:text-gray-700">
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/#skills" className="hover:text-gray-700">
+                            <Link smooth to="/#skills" className="hover:text-gray-700">
                                 Skills
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/#experience" className="hover:text-gray-700">
+                            <Link smooth to="/#experience" className="hover:text-gray-700">
                                 Experience
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/#education" className="hover:text-gray-700">
+                            <Link smooth to="/#education" className="hover:text-gray-700">
                                 Education
-                            </a>
+                            </Link>
                         </li>
                         {/*
                         <li>
-                            <a href="#" className="hover:text-gray-700">
+                            <Link to="/projects" className="hover:text-gray-700"> 
                                 Projects
-                            </a>
+                            </Link>
                         </li>
                         */}
                         
                         <li>
-                            <a href="/#contact" className="hover:text-gray-700">
+                            <Link smooth to="/#contact" className="hover:text-gray-700"> 
                                 Contact
-                            </a>
+                            </Link>
                         </li>
                         <div className="hidden md:block">
                             {headerData.resumePdf && (
@@ -97,3 +98,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
