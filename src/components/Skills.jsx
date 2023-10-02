@@ -5,7 +5,7 @@ import { skillsImage } from '../utils/skillsImage';
 
 function Skills() {
     return (
-        <div className='skills flex flex-col items-center justify-start min-h-60vh p-2.5 md:p-2' id="skills">
+        <div className='skills flex flex-col items-center justify-center min-h-[60vh] p-2.5 md:p-2' id="skills">
             <div className='skillsHeader flex items-center justify-center'>
                 <h1 className='text-violet-400 text-4xl font-bold text-center'>Skills</h1>
             </div>
