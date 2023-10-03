@@ -40,7 +40,7 @@ function Contact() {
                     message: message,
                 };
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
+                axios.post(contactsData.formspreeAPI, responseData).then((res) => {
                     console.log('success');
                     setSuccess(true);
                     setErrMsg('');
